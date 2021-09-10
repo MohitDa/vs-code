@@ -1,0 +1,32 @@
+.image{
+    justify-content: flex-end;
+}
+.co-md-6,.col-12{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    margin-left:auto;
+}
+div.a {
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: right; /* For Firefox prior 58.0 */
+    text-align-last: center;
+  }
+  div.b{
+      text-align: justify;
+      -moz-text-align-last: left;
+      text-align-last: left;
+    
+    .image{
+        justify-content: flex-end;
+    }
+    .co-md-6,.col-12{
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+  }
